@@ -131,7 +131,7 @@
     gap: 15px;
 }
 
-.gamers-description h2 {
+.gamers-description h2, .funny {
     background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
     background-clip: text;
     -webkit-background-clip: text;
@@ -143,6 +143,26 @@
 }
 .bb{
     font-size: 20px;
+}
+/* Online gamers funny videos */
+.funny-videos{
+    padding: 50px 140px;
+}
+.funny-videos-title{
+    text-align: center;
+    margin: auto;
+}
+.cards{
+    display: flex;
+    gap: 10px;
+}
+.card{
+    border-radius: 15px;
+}
+.card img{
+    width: 95%;
+    padding: 15px;
+    border-radius: 15px;
 }
 
 
@@ -191,6 +211,16 @@
     }
     .gamers-description {
         width: 90%;
+        text-align: center;
+    }
+    /* funny videos */
+    .funny-videos{
+        padding: 10px;
+        margin-top: 40px;
+    }
+    .cards{
+        flex-direction: column;
+        gap: 30px;
         text-align: center;
     }
 
