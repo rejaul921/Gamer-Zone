@@ -29,6 +29,7 @@
 .manu {
     width: 50%;
     display: flex;
+    justify-content: space-between;
     list-style: none;
     gap: 30px;
     align-items: center;
@@ -44,6 +45,7 @@
     background: rgba(11, 2, 35, 0.10);
     display: flex;
     align-items: center;
+    justify-content: space-around;
     padding: 5px 10px;
 }
 
@@ -223,8 +225,8 @@
 .games{
     display: flex;
     align-items: center;
-    height: 60px;
-    border-radius: 30px;
+    height: 55px;
+    border-radius: 27px;
     padding: 3px;
     list-style: none;
     gap: 10px;
@@ -344,6 +346,55 @@
         display: grid;
         grid-template-columns: repeat(3, 1fr);
     }
-
-
 }
+/* tablet responsive */
+@media screen and (min-width: 576px) and (max-width: 992px) {
+        /* navbar */
+        .navbar {
+            padding: 20px 40px;
+        }
+        .banner-description {
+            padding: 90px 40px;
+        }
+    
+        .banner-img {
+            padding: 20px 35px;
+        }
+        .we-gamers {
+            padding: 40px 90px;
+        }
+        .funny-videos{
+            padding: 30px 90px;
+        }
+        .cards{
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 20px;
+        }
+        .play-instant{
+            padding: 20px 90px;
+        }
+        .play-description{
+            padding: 10px 90px;
+        }
+        .play-img> .second-img{
+            width: 100px ;
+            height: 120px;
+            margin-left: -30px;
+            margin-top: -90px;
+        }
+        .play-img> .main-img {
+            width: 100%;
+            padding: 5px;
+        }
+        .all-games{
+            grid-template-columns: repeat(3, 1fr);
+            padding: 40px 100px;
+        }
+        .important-link{
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+        }
+
+  }
+  
